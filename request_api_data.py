@@ -26,6 +26,7 @@ pokemoninfo= get_pokemon_data(input_name)
 if pokemoninfo:
     print(f"Name: {pokemoninfo["name"]}")
     print(f"ID: {pokemoninfo["id"]}")
+    print(f"pokwmon type : {pokemoninfo["types"][0]["type"]["name"]}")
     print(f"height: {pokemoninfo["height"]}")
     print(f"weight: {pokemoninfo["weight"]}")
     print("Abilities:")
